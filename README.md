@@ -1,6 +1,7 @@
 # How to use
 NumPy with SVE support will be installed by following comand.
 ```
+python runtests.py --cpu-baseline=sve --cpu-dispatch=none
 python setup.py install
 ```
 The basic usage is the same as the original NumPy.
